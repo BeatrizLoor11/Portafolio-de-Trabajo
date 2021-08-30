@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contacto</title>
+</head>
+<body>
+   <!--  Encabezado -->
+   <h1>Mi primera web</h1>
+   <!-- Menu -->
+   <ul>
+    <li><a href="index.html" title="Inicio">Inicio</a></li>
+    <li><a href="contenidos.html" title="Contenidos">Contenidos</a></li>
+    <li><a href="contacto.html" title="Contacto">Contacto</a></li>
+   </ul>
+   <hr>
+   <!-- Contenido de contenidos.html -->
+   <h2>Contacto</h2>
+   <form>
+    <p>
+        <label for="nombre">Nombre</label> <br>
+        <input type="text" name="nombre" placeholder="Escribe tu nombre"/>
+    </p>
+    <p>
+        <label for="biografia">Biografia</label>
+        <textarea name="biografia" cols="10" rows="1"></textarea> <!-- cols columna: vertical y rows fila: horizontal -->
+    </p>
+    <p>
+        <label for="edad">Edad</label> 
+        <select name="edad">
+            <option value="mayor">Mayor de edad</option>
+            <option value="adulto">Adulto</option>
+            <option value="65">Mayor de 65 años</option>
+        </select>
+    </p>
+    <p>
+        <input type="radio" name="genero" value="hombre"> Hombre<br>     
+       <input type="radio" name="genero" valur="mujer"> Mujer <br>
+       <input type="radio" name="genero" value="otro"> Otro<br>
+    </p>
+    <p>
+        <select name="generodos">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+            <option value="otro">Otro</option>
+        </select>
+    </p>
+    <input type="submit" value="Enviar email">    
+   </form> 
+</body>
+</html>
