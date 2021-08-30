@@ -1,0 +1,78 @@
+<!DOCTYPE html> <!--Referido a html5-->
+<html lang="es">
+    <head>
+        <meta charset="utf-8"> <!--codificar caracteres, acentos, etc.-->
+        <title>Primer pagina web</title> <!--la unica que se ve en head-->
+        <meta name="description" content="Es mi primer página"/>
+        <meta name="author" content="Bety"/>
+        <meta name="keywords" content="Mi primer parrafo,Estructura"/>
+        <!--Referido a id= llamado cabecera, esto en style etiqueta
+             <style>   
+            #cabecera{
+                background-color: rgb(128, 119, 0); 
+                          }
+            Referido a la class= "green"
+                          .green{
+                background-color: yellowgreen;
+                color: tomato;
+            }
+            Referido a blockquote con atributo  cite
+             blockquote[cite]{
+                background-color: rgb(68, 18, 68);
+            } 
+             </style> -->
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <div class="agrupar">
+                <header class="header" > <!--header style="color: white;background: black"--><!--header id="cabecera"--><!--<header class="green">-->
+                    <h1>Mi blog Triz</h1> 
+                </header>
+                <nav class="menu">
+                    <ul>
+                         <li>Pricipal</li>
+                         <li>Ayuda</li>
+                         <li>Contacto</li>
+                    </ul>
+                   </nav>
+                      <section class="seccion">
+                           <article>
+                              <hgroup >
+                                  <h1>Titulo del Primer Articulo</h1>
+                                  <h2>Subtitulo del Primer Articulo</h2>
+                              </hgroup>
+                              <time datetime="12-10-2018">Publicado 12-10-2018</time> <!--<span>: nos ayuda a modificar este texto con css y Texto de prueba Lorem30: 30 palabras de texto prueba-->
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <small>Odit quidem voluptatum ipsum </small> recusandae ipsam amet voluptates <cite>perspiciatis obcaecati</cite>, 
+                              facere expedita aperiam provident facilis tenetur ea aliquam eveniet <span>dolor sed quod?</span></p>
+                              <img src="images/Logo.jpg">
+                              <footer>Comentarios(0)</footer>
+                              <a href="https://blogqueesunalgoritmo.blogspot.com/2020/04/alto-un-algoritmo.html">Visita el enlace </a>
+                            </article>
+                            <article>
+                               <hgroup>
+                                  <h1>Titulo del Segundo Articulo</h1>
+                                  <h2>Subtitulo del Segundo Articulo</h2>
+                               </hgroup>
+                               <time datetime="12-10-2018">Publicado 12-10-2018</time>
+                               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse fugiat itaque necessitatibus animi. Dolorem sed unde ullam saepe velit in eius quaerat veritatis voluptatibus soluta assumenda, reprehenderit placeat doloribus maxime.</p>
+                               <footer>Comentarios(10)</footer>
+                               <address>
+                               <a href="https://blogqueesunalgoritmo.blogspot.com/2020/04/alto-un-algoritmo.html">Visita el enlace</a>
+                               </address>
+                          </article>
+                     </section>
+                      <aside class="columna">
+                         <blockquote cite="https://www.youtube.com/watch?v=W6GTDfrWjXs&t=3372s"> <!--blockquote cite=""  sirve para citar lugar de fuente pero no se muestra en el navegador--->
+                           Mensaje 1  
+                      </blockquote>
+                     <blockquote >
+                        Mensaje 2
+                     </blockquote>
+                     </aside>   
+
+                     <footer class="pie">
+                         Derechos reservados 2021 bety @
+                     </footer >
+</div>
+    </body>
+</html>
