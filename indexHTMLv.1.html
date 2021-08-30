@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+    <title>Mi Curso</title>
+</head>
+<body>
+    <h1>Primer Titulo</h1>
+    <h2>Subtitulo</h2> <!-- de h1 mas grande disminuyendo a h6 -->
+    <!-- br damos un salto, si pongo br br son dos saltos....y hr es salto y pinta linea -->
+    <p>
+        Cat ipsum dolor sit amet consectetur adipisicing elit. Cumque fuga deserunt natus, explicabo iusto animi voluptatem, alias beatae, laborum distinctio eius nesciunt. Aliquam debitis sunt consectetur atque expedita ipsa praesentium.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, dolore! Dolorum aliquid tempora voluptates dolores veniam? <br> <br> Ad quibusdam deserunt debitis soluta similique maiores, <em>Etiqueta em</em> Adipisci itaque <i>Etiqueta i</i> facere eveniet nulla. <hr>
+    </p>
+    <h1>Segundo Titulo</h1>
+    <h2>Subtitulo</h2>
+    <p>
+       Lorem <span id="resultado" class="texto">ipsum dolor sit amet consectetur,</span> adipisicing elit. Magni voluptatum sed deserunt? Quod ratione qui soluta voluptates incidunt, sequi cum facilis placeat voluptatem corporis saepe aliquam eum culpa, <blockquote cite="http://wwww.youtube.com">Este texto esta en modo de cita</blockquote> 
+       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, voluptates. Fugit quia quas molestias repudiandae mollitia cumque! Temporibus dolorum provident saepe at tenetur voluptatibus adipisci, expedita ullam est, atque magnam!
+    </p>
+    <h3>Lista Ordenada </h3>
+    <ol>
+        <li>Sandia</li>
+        <li>Pera</li>
+        <li>Sandia</li>
+    </ol>
+    <h3>Lista Desaordenada</h3>
+    <ul>
+        <li>Manzana</li>
+        <ul>
+            <li>Amarilla</li>
+            <li>Roja</li>
+            <li>Verde</li>
+        </ul>
+        <li>Quiwi</li>
+    </ul>
+    
+     <h3>Imagen</h3>
+     <img src="images/Logo.jfif" alt="luna" title="luna llena" width="150px" height="100px"><!-- alt= texto alternativo en caso de no mostrar la imagen, title=mensaje que saldra al pasar el ratón -->
+    
+    <h3>Tablas</h3>
+    <table border="1" >
+        <tr>
+           <th>Nombre</th> <!-- th letras en negritas -->
+           <th>Apellido</th> <!-- td letra normal -->
+           <th>Pais</th>
+        </tr>
+        <tr>
+            <td>Beatriz</td>
+            <td colspan="2">Lopez</td> <!-- colspan tamaño de dos columnas -->
+        </tr>
+   </table>
+   <h3>Formularios</h3>
+   <form>
+       <p>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="Escribe tu nombre"/>
+       </p>
+       <p>
+        <label for="descripcion">Descipcion</label>
+        <textarea name="descripcion" cols="10" rows="1"></textarea>
+       </p>
+       <input type="radio" name="genero" value="hombre"> Hombre<br>     
+       <input type="radio" name="genero" valur="mujer"> Mujer <br>
+       <input type="radio" name="genero" value="otro"> Otro<br>
+   <select name="generodos">
+    <option value="hombre">Hombre</option>
+    <option value="mujer">Mujer</option>
+    <option value="otro">Otro</option>
+   </select>
+   <input type="submit" value="Enviar formulario">
+
+    </form>
+</body>
+</html>
